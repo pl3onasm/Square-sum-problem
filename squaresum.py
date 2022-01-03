@@ -1,8 +1,10 @@
-# file name: squaresum.py
-# author: David De Potter, pl3onasm@gmail.com
-# license: refer to the license file in this repository
-# description: computes a path in which any two   
-# adjacent vertices add to give a perfect square
+# ┌───────────────────────────────────────────────────────┐
+# | file name: squaresum.py                               |
+# | author: David De Potter, pl3onasm@gmail.com           |
+# | license: refer to the license file in this repository |
+# | description: computes a path in which the sum of any  |
+# | two adjacent vertices yields a perfect square         |
+# └───────────────────────────────────────────────────────┘
 
 import sys
 from math import ceil, sqrt
