@@ -41,3 +41,5 @@ def squareSum(n):
 
 if __name__ == "__main__":
   print(squareSum(int(sys.argv[1]))) 
+  
+    
