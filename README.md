@@ -7,7 +7,7 @@ The problem as explained by Matt Parker:
 
 # 🔹Program usage
   
-The program makes use of a backtracking algorithm that is guided by a heuristic that prioritizes nodes having the least degree in order to avoid dead ends. The program is capable of computing Hamiltonian paths for inputs up to 20'000 relatively easily. If no path exists, the output is ```None```.
+The program makes use of a backtracking algorithm that is guided by a heuristic that prioritizes nodes having the least degree in order to avoid potential dead ends. The program is capable of computing Hamiltonian paths for inputs up to 20'000 relatively easily. If no path exists, the output is ```None```.
   
 Example:  
 ```
