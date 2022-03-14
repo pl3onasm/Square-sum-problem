@@ -22,3 +22,9 @@ Output:
 If this example leaves you with an appetite for more, have a look at the Hamiltonian path for 21'000: [path](https://pastebin.com/tfJsQEDH).
   
 &nbsp;  
+
+Note that for large paths, you may have to increase the sack size in order to avoid a segmentation fault. This can be done in the terminal:  
+
+```
+ulimit -s unlimited
+```

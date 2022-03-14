@@ -10,7 +10,7 @@ import sys
 from math import ceil, sqrt
 from collections import defaultdict
 
-sys.setrecursionlimit(25000)
+sys.setrecursionlimit(250000)
 
 def dfs (graph, vertices, path, n):
   if len(path) == n:
