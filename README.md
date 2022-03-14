@@ -23,7 +23,7 @@ If this example leaves you with an appetite for more, have a look at the Hamilto
   
 &nbsp;  
 
-Note that for large paths, you may have to increase the sack size in order to avoid a segmentation fault. This can be done in the terminal:  
+Note that for large paths, you may have to increase the stack size in order to avoid a segmentation fault. This can be done in the terminal:  
 
 ```
 ulimit -s unlimited
