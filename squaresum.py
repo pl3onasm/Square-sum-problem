@@ -33,8 +33,8 @@ def squareSum(n):
   vertices = [v for v in range(1,n+1)]
 
   for vertex in vertices:
-    for adjacent in vertices:
-      if adjacent != vertex and adjacent + vertex in squares:
+    for adjacent in vertices[vertex:]:
+      if adjacent + vertex in squares:
         graph[vertex] += [adjacent]
 
   return next(dfs(graph, vertices, [], n), None)
