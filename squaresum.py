@@ -36,6 +36,7 @@ def squareSum(n):
     for adjacent in vertices[vertex:]:
       if adjacent + vertex in squares:
         graph[vertex] += [adjacent]
+        graph[adjacent] += [vertex]
 
   return next(dfs(graph, vertices, [], n), None)
 
